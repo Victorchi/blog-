@@ -1,0 +1,1632 @@
+2017-05-10 19:13:14,124 [Thread-2:6328] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-10 19:13:14,131 [Thread-4:10348] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-10 19:13:14,148 [Thread-5:5716] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-10 19:13:14,257 [Thread-6:5668] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-10 19:13:14,262 [Thread-7:2484] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-10 19:23:13,594 [Thread-2:7252] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 19, in index
+    return render(request,'index.html')
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 204, in render
+    with context.bind_template(self):
+  File "C:\Python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\context.py", line 256, in bind_template
+    processors = (template.engine.template_context_processors +
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\utils\functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 105, in template_context_processors
+    return tuple(import_string(path) for path in context_processors)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 105, in <genexpr>
+    return tuple(import_string(path) for path in context_processors)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\utils\module_loading.py", line 27, in import_string
+    six.reraise(ImportError, ImportError(msg), sys.exc_info()[2])
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\utils\module_loading.py", line 23, in import_string
+    return getattr(module, class_name)
+ImportError: Module "myblog.views" does not define a "global_setting" attribute/class
+2017-05-10 19:24:17,772 [Thread-3:8264] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-10 19:24:17,778 [Thread-4:1644] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-10 19:24:17,796 [Thread-5:10424] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-10 19:24:17,809 [Thread-6:5488] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-10 19:24:17,835 [Thread-7:10392] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-10 19:25:23,641 [Thread-9:280] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-10 19:25:23,644 [Thread-10:1256] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-10 19:25:23,664 [Thread-11:1244] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-10 19:25:23,667 [Thread-12:424] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-10 19:25:23,670 [Thread-13:6668] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-10 19:25:25,703 [Thread-15:1528] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-10 19:25:25,704 [Thread-16:216] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-10 19:25:25,720 [Thread-17:3936] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-10 19:25:25,721 [Thread-18:5432] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-10 19:25:25,724 [Thread-19:7084] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-10 19:25:26,377 [Thread-21:8264] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-10 19:25:26,380 [Thread-22:5288] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-10 19:25:26,394 [Thread-23:10408] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-10 19:25:26,397 [Thread-24:1000] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-10 19:25:26,398 [Thread-25:4964] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-10 19:25:53,339 [Thread-27:3808] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-10 19:25:53,344 [Thread-28:9252] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-10 19:25:53,365 [Thread-29:9472] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-10 19:25:53,378 [Thread-30:6924] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-10 19:25:53,381 [Thread-31:292] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-11 10:56:14,834 [Thread-6:14572] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-11 10:56:14,841 [Thread-5:23804] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-11 10:56:14,901 [Thread-4:24384] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-11 10:56:14,914 [Thread-3:23680] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-11 10:56:14,927 [Thread-2:14804] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-11 14:30:51,306 [Thread-3:26356] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-11 14:30:51,309 [Thread-4:25572] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-11 14:30:51,334 [Thread-5:23004] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-11 14:30:51,344 [Thread-6:18264] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-11 14:30:51,348 [Thread-7:24680] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-11 14:30:51,352 [Thread-8:21712] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-11 15:48:51,086 [Thread-11:26528] [django.request:182] [base:get_response] [WARNING]- Not Found: /media/avatar/default.png
+2017-05-11 15:50:41,798 [Thread-19:17748] [django.request:182] [base:get_response] [WARNING]- Not Found: /media/avatar/2017/05/jk57441981ed32f.jpg
+2017-05-11 15:50:45,084 [Thread-21:18188] [django.request:182] [base:get_response] [WARNING]- Not Found: /media/avatar/2017/05/jk57441981ed32f.jpg
+2017-05-11 15:51:31,401 [Thread-24:21852] [django.request:182] [base:get_response] [WARNING]- Not Found: /media/avatar/2017/05/jk57441981ed32f.jpg
+2017-05-11 15:51:39,838 [Thread-25:27056] [django.request:182] [base:get_response] [WARNING]- Not Found: /avatar/2017/05/jk57441981ed32f.jpg
+2017-05-11 16:05:46,358 [Thread-9:24596] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/avatar/2017/05
+2017-05-12 07:51:05,288 [Thread-5:37744] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/5b25375c0-36a4-11e7-beea-08606e0c5e58.jpg
+2017-05-12 08:12:27,493 [Thread-6:31836] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/5ae95f130-36a7-11e7-90c8-08606e0c5e58.jpg
+2017-05-12 08:13:02,532 [Thread-10:10708] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/5c378510f-36a7-11e7-87d8-08606e0c5e58.jpg
+2017-05-12 08:13:10,533 [Thread-17:34604] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/5c378510f-36a7-11e7-87d8-08606e0c5e58.jpg
+2017-05-12 08:14:00,502 [Thread-21:33376] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/5c378510f-36a7-11e7-87d8-08606e0c5e58.jpg
+2017-05-12 08:14:12,249 [Thread-24:35196] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/5c378510f-36a7-11e7-87d8-08606e0c5e58.jpg
+2017-05-12 08:14:29,118 [Thread-31:11072] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/5f714e6ee-36a7-11e7-963f-08606e0c5e58.png
+2017-05-12 08:15:55,005 [Thread-6:8200] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/52a45c2b0-36a8-11e7-abbb-08606e0c5e58.png
+2017-05-12 08:17:03,161 [Thread-6:10528] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/552db5140-36a8-11e7-b7f8-08606e0c5e58.jpg
+2017-05-12 08:17:39,663 [Thread-5:31936] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/568a74dcf-36a8-11e7-aa6f-08606e0c5e58.jpg
+2017-05-12 09:07:18,028 [Thread-3:13688] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:07:18,029 [Thread-4:36528] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:07:18,101 [Thread-5:36952] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:07:18,105 [Thread-6:38000] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:07:18,107 [Thread-7:37228] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:07:18,109 [Thread-8:2320] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:09:34,795 [Thread-10:34776] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:09:34,798 [Thread-11:37980] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:09:34,818 [Thread-12:38128] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:09:34,819 [Thread-13:6356] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:09:34,821 [Thread-14:38132] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:10:09,644 [Thread-16:1152] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:10:09,647 [Thread-17:32776] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:10:09,665 [Thread-18:27732] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:10:09,674 [Thread-19:9244] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:10:09,681 [Thread-20:35876] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:10:09,683 [Thread-21:33780] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:10:11,828 [Thread-23:3428] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:10:11,832 [Thread-24:32888] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:10:11,848 [Thread-25:2860] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:10:11,854 [Thread-26:11280] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:10:11,855 [Thread-27:33940] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:10:13,394 [Thread-29:34108] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:10:13,400 [Thread-30:36584] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:10:13,413 [Thread-31:484] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:10:13,414 [Thread-32:10968] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:10:13,415 [Thread-33:19516] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:10:14,601 [Thread-35:36256] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:10:14,605 [Thread-36:3884] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:10:14,621 [Thread-37:37652] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:10:14,621 [Thread-38:6080] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:10:14,624 [Thread-39:36412] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:16:05,025 [Thread-3:32520] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:16:05,032 [Thread-4:9260] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:16:05,055 [Thread-5:32412] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:16:05,072 [Thread-6:31304] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:16:05,088 [Thread-7:2224] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:16:06,391 [Thread-9:15096] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:16:06,392 [Thread-10:23636] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:16:06,415 [Thread-11:9236] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:16:06,433 [Thread-12:34388] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:16:06,450 [Thread-13:33596] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:16:06,460 [Thread-14:9672] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:16:07,470 [Thread-15:35080] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2017-05-12 09:16:14,733 [Thread-16:34144] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2017-05-12 09:16:38,127 [Thread-22:24236] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2017-05-12 09:16:40,507 [Thread-24:3040] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:16:40,510 [Thread-25:4316] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:16:40,565 [Thread-26:5064] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:16:40,569 [Thread-27:38212] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:16:40,572 [Thread-28:31496] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:16:42,017 [Thread-29:34716] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2017-05-12 09:16:45,914 [Thread-31:25428] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:16:45,918 [Thread-32:36272] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:16:45,937 [Thread-33:34112] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:16:45,950 [Thread-34:35220] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:16:45,960 [Thread-35:34308] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:18:02,811 [Thread-74:9204] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:18:02,813 [Thread-75:7648] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:18:02,839 [Thread-76:31480] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:18:02,855 [Thread-77:29952] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:18:02,867 [Thread-78:25616] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:18:02,878 [Thread-79:32932] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:18:04,118 [Thread-81:10176] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:18:04,122 [Thread-82:32628] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:18:04,142 [Thread-83:34188] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:18:04,154 [Thread-84:7392] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:18:04,164 [Thread-85:25956] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:18:05,668 [Thread-86:37140] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2017-05-12 09:18:08,033 [Thread-87:12320] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2017-05-12 09:18:50,049 [Thread-94:6988] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:18:50,052 [Thread-95:38804] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:18:50,072 [Thread-96:20700] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:18:50,079 [Thread-97:3204] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:18:50,091 [Thread-98:38656] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:18:50,101 [Thread-99:28072] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:18:51,118 [Thread-101:4344] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:18:51,125 [Thread-102:38872] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:18:51,147 [Thread-103:9988] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:18:51,163 [Thread-104:37968] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:18:51,178 [Thread-105:35740] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:18:52,132 [Thread-107:35156] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:18:52,134 [Thread-108:33476] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:18:52,160 [Thread-109:34732] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:18:52,173 [Thread-110:38696] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:18:52,184 [Thread-111:34476] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:18:52,190 [Thread-112:37904] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:18:52,884 [Thread-114:33220] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:18:52,885 [Thread-115:36404] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:18:52,915 [Thread-116:27720] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:18:52,930 [Thread-117:35036] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:18:52,940 [Thread-118:38508] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:18:59,697 [Thread-119:19676] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2017-05-12 09:19:03,464 [Thread-121:37992] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:19:03,467 [Thread-122:2320] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:19:03,509 [Thread-123:32512] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:19:03,525 [Thread-124:25940] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:19:03,559 [Thread-125:38180] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 09:19:03,569 [Thread-126:34564] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:19:04,434 [Thread-128:9720] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 09:19:04,437 [Thread-129:25912] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 09:19:04,457 [Thread-130:6628] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 09:19:04,470 [Thread-131:14736] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 09:19:04,483 [Thread-132:33304] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 10:10:39,645 [Thread-134:41324] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 10:10:39,648 [Thread-135:41916] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 10:10:39,746 [Thread-136:41312] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 10:10:39,750 [Thread-137:41268] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 10:10:39,750 [Thread-138:29356] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 10:11:50,401 [Thread-6:39892] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 10:11:50,405 [Thread-5:38920] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 10:11:50,428 [Thread-4:41700] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 10:11:50,440 [Thread-3:41168] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 10:11:50,451 [Thread-2:4316] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 10:17:35,855 [Thread-3:31480] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 10:17:35,861 [Thread-4:8852] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 10:17:35,887 [Thread-5:38680] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 10:17:35,954 [Thread-6:41868] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 10:17:35,959 [Thread-7:10096] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 10:17:35,960 [Thread-8:32272] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 10:40:51,661 [Thread-37:32272] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 10:40:51,664 [Thread-38:34440] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 10:40:51,684 [Thread-39:32124] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 10:40:51,763 [Thread-40:34972] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 10:40:51,767 [Thread-41:38940] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 10:40:51,769 [Thread-42:38416] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 10:54:01,996 [Thread-3:34428] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 10:54:02,002 [Thread-4:30032] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 10:54:02,048 [Thread-5:27576] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 10:54:02,061 [Thread-6:8384] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 10:54:02,062 [Thread-7:41980] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 10:54:04,598 [Thread-9:28044] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 10:54:04,608 [Thread-10:39064] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 10:54:04,621 [Thread-11:38808] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 10:54:04,625 [Thread-12:39488] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 10:54:04,627 [Thread-13:3604] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:08:40,578 [Thread-3:33172] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:08:40,584 [Thread-4:34604] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:08:40,602 [Thread-5:37180] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:08:40,605 [Thread-7:24348] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:08:40,605 [Thread-6:41944] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:08:45,148 [Thread-9:27152] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:08:45,155 [Thread-10:39896] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:08:45,180 [Thread-11:6532] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:08:45,183 [Thread-12:34940] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:08:45,184 [Thread-13:32124] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:08:51,355 [Thread-15:41436] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:08:51,358 [Thread-16:38364] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:08:51,374 [Thread-17:13024] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:08:51,375 [Thread-18:23700] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:08:51,378 [Thread-19:40356] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:09:10,773 [Thread-21:41096] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:09:10,776 [Thread-22:34700] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:09:10,799 [Thread-23:6764] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:09:10,816 [Thread-24:40556] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:09:10,825 [Thread-25:37980] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:09:14,009 [Thread-27:37804] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:09:14,012 [Thread-28:36648] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:09:14,038 [Thread-29:40372] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:09:14,039 [Thread-30:33172] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:09:14,046 [Thread-31:34604] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:09:14,061 [Thread-32:24348] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:09:38,543 [Thread-34:39584] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:09:38,546 [Thread-35:31480] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:09:38,575 [Thread-36:41568] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:09:38,592 [Thread-37:40796] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:09:38,607 [Thread-38:5244] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:09:38,614 [Thread-39:41468] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:09:44,789 [Thread-41:32660] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:09:44,792 [Thread-42:39924] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:09:44,808 [Thread-43:38856] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:09:44,812 [Thread-44:35372] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:09:44,813 [Thread-45:40212] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:11:44,301 [Thread-47:7916] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:11:44,302 [Thread-48:6776] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:11:44,329 [Thread-49:34372] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:11:44,338 [Thread-50:39040] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:11:44,351 [Thread-51:41332] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:11:44,352 [Thread-52:33620] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:12:14,907 [Thread-54:33664] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:12:14,911 [Thread-55:6776] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:12:14,927 [Thread-56:7916] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:12:14,943 [Thread-57:34372] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:12:14,950 [Thread-58:39040] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:12:16,535 [Thread-60:33684] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:12:16,539 [Thread-61:41360] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:12:16,559 [Thread-62:34700] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:12:16,562 [Thread-63:41096] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:12:16,565 [Thread-64:6764] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:17:42,954 [Thread-67:41368] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:17:42,957 [Thread-68:41096] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/jk57441981ed32f.jpg
+2017-05-12 11:17:42,990 [Thread-69:13436] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/589c304d1be9c.jpg
+2017-05-12 11:17:43,096 [Thread-70:40200] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/4b6cfa66fcd6e7f9b5f6000ac449298d.jpg
+2017-05-12 11:17:44,440 [Thread-72:35356] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:17:44,441 [Thread-73:35556] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/jk57441981ed32f.jpg
+2017-05-12 11:17:44,470 [Thread-74:24348] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/589c304d1be9c.jpg
+2017-05-12 11:17:44,486 [Thread-75:29724] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/4b6cfa66fcd6e7f9b5f6000ac449298d.jpg
+2017-05-12 11:17:45,713 [Thread-77:24692] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:17:45,736 [Thread-78:38940] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/jk57441981ed32f.jpg
+2017-05-12 11:17:45,756 [Thread-79:38808] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/589c304d1be9c.jpg
+2017-05-12 11:17:45,770 [Thread-80:40260] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/4b6cfa66fcd6e7f9b5f6000ac449298d.jpg
+2017-05-12 11:21:50,348 [Thread-82:33804] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:21:50,351 [Thread-83:30028] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/jk57441981ed32f.jpg
+2017-05-12 11:21:50,371 [Thread-84:36820] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/589c304d1be9c.jpg
+2017-05-12 11:21:50,387 [Thread-85:36424] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/4b6cfa66fcd6e7f9b5f6000ac449298d.jpg
+2017-05-12 11:22:18,157 [Thread-86:39700] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/jk57441981ed32f.jpg
+2017-05-12 11:23:29,864 [Thread-93:35256] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:24:33,497 [Thread-97:40564] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:24:35,723 [Thread-99:34520] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:24:57,826 [Thread-101:34700] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:25:06,250 [Thread-103:40628] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:25:13,352 [Thread-105:40556] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:25:14,145 [Thread-107:35556] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:25:33,799 [Thread-109:41868] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:26:31,664 [Thread-115:36336] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:27:06,108 [Thread-121:30176] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:27:50,599 [Thread-127:41360] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:27:50,605 [Thread-128:38592] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/
+2017-05-12 11:27:50,687 [Thread-129:34520] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/
+2017-05-12 11:34:28,128 [Thread-133:35500] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:34:52,371 [Thread-138:41364] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:34:52,374 [Thread-139:10528] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/jk57441981ed32f.jpg
+2017-05-12 11:34:52,395 [Thread-140:1424] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/589c304d1be9c.jpg
+2017-05-12 11:34:52,407 [Thread-141:2224] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/4b6cfa66fcd6e7f9b5f6000ac449298d.jpg
+2017-05-12 11:34:52,427 [Thread-142:39892] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/jk57441981ed32f.jpg
+2017-05-12 11:35:33,951 [Thread-144:38316] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:36:21,782 [Thread-147:36064] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:36:21,786 [Thread-148:32660] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:36:21,809 [Thread-149:39520] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:36:21,828 [Thread-150:39968] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:36:21,829 [Thread-151:39752] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:36:33,368 [Thread-154:40680] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:36:33,375 [Thread-155:40708] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:36:33,436 [Thread-156:41536] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:36:33,441 [Thread-157:40564] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:36:33,444 [Thread-158:34596] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:36:40,704 [Thread-160:35556] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:36:40,747 [Thread-161:37180] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:36:40,757 [Thread-162:38908] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:36:40,763 [Thread-163:34428] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:36:40,766 [Thread-164:27576] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:36:48,914 [Thread-166:38940] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:36:48,917 [Thread-167:39412] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:36:48,934 [Thread-168:34544] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:36:48,936 [Thread-169:23700] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:36:48,938 [Thread-170:40300] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:37:47,617 [Thread-172:42140] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:37:47,621 [Thread-173:42144] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:37:47,645 [Thread-174:42148] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:37:47,658 [Thread-175:42152] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:37:47,664 [Thread-176:42156] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:37:47,664 [Thread-177:42160] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:40:33,000 [Thread-179:42284] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:40:33,003 [Thread-180:42288] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:40:33,023 [Thread-181:41992] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:40:33,038 [Thread-182:42332] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:40:33,042 [Thread-183:42328] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:41:49,118 [Thread-185:42784] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:41:49,124 [Thread-186:42772] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:41:49,130 [Thread-187:42840] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:41:49,131 [Thread-188:42800] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:41:53,461 [Thread-190:42816] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:41:53,466 [Thread-191:42844] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:41:53,473 [Thread-192:42848] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:41:53,476 [Thread-193:42856] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:42:11,622 [Thread-195:42988] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:42:11,625 [Thread-196:42992] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:42:11,631 [Thread-197:42996] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:42:11,635 [Thread-198:43000] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:42:12,674 [Thread-200:43004] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:42:12,686 [Thread-201:42036] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:42:12,687 [Thread-202:42044] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:42:12,688 [Thread-203:42056] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:43:30,927 [Thread-205:42348] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:43:30,940 [Thread-206:42660] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:43:30,953 [Thread-207:38856] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:43:30,973 [Thread-208:42852] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:43:30,986 [Thread-209:42836] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:44:21,540 [Thread-211:42408] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:44:21,545 [Thread-212:42392] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:44:21,568 [Thread-213:42380] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:44:21,578 [Thread-214:42344] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:44:21,585 [Thread-215:42436] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:45:05,237 [Thread-217:40460] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:45:05,243 [Thread-218:11140] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:45:05,259 [Thread-219:42788] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:45:05,266 [Thread-220:42144] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:45:05,276 [Thread-221:42140] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:45:32,716 [Thread-223:42776] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:45:32,721 [Thread-224:42480] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:45:32,740 [Thread-225:42812] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:45:32,756 [Thread-226:42992] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:45:32,763 [Thread-227:42988] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:46:42,565 [Thread-229:42584] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:46:42,581 [Thread-230:42544] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:46:42,598 [Thread-231:42240] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:46:42,617 [Thread-232:33852] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:46:42,619 [Thread-233:42972] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:48:50,165 [Thread-235:42656] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:48:50,171 [Thread-236:42652] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/jk57441981ed32f.jpg
+2017-05-12 11:48:50,188 [Thread-237:38316] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/589c304d1be9c.jpg
+2017-05-12 11:48:50,388 [Thread-238:42440] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/4b6cfa66fcd6e7f9b5f6000ac449298d.jpg
+2017-05-12 11:49:12,270 [Thread-240:33236] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:49:12,292 [Thread-241:42988] [django.request:182] [base:get_response] [WARNING]- Not Found: /456
+2017-05-12 11:49:13,075 [Thread-243:35500] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:49:13,081 [Thread-244:42320] [django.request:182] [base:get_response] [WARNING]- Not Found: /456
+2017-05-12 11:49:20,888 [Thread-246:7752] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:49:20,894 [Thread-247:34848] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:49:20,914 [Thread-248:42016] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:49:20,924 [Thread-249:36456] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:49:20,927 [Thread-250:42876] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:49:30,625 [Thread-252:4388] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:49:30,634 [Thread-253:42768] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:49:30,653 [Thread-254:39448] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 11:49:30,665 [Thread-255:41332] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 11:49:30,671 [Thread-256:7784] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 11:50:15,923 [Thread-258:42788] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:50:15,933 [Thread-259:42144] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 11:51:38,572 [Thread-261:39448] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:51:38,581 [Thread-262:41332] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/jk57441981ed32f.jpg
+2017-05-12 11:51:38,598 [Thread-263:7784] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/589c304d1be9c.jpg
+2017-05-12 11:51:38,615 [Thread-264:34520] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2017/05/4b6cfa66fcd6e7f9b5f6000ac449298d.jpg
+2017-05-12 11:51:52,779 [Thread-266:39876] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:52:04,921 [Thread-271:40980] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:52:55,599 [Thread-273:42300] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:53:52,914 [Thread-275:42548] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:54:14,701 [Thread-277:42840] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:54:39,788 [Thread-279:42328] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:54:52,934 [Thread-281:42864] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:54:56,973 [Thread-283:42752] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:55:02,244 [Thread-285:42076] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:55:10,476 [Thread-287:42652] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 11:55:17,391 [Thread-289:31304] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:25:48,380 [Thread-291:44852] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:25:57,362 [Thread-296:40840] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:26:05,470 [Thread-298:44344] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:26:09,763 [Thread-301:45012] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:26:24,201 [Thread-308:26284] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:28:04,450 [Thread-314:43040] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:28:25,414 [Thread-320:43760] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:28:26,829 [Thread-322:44940] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:28:28,411 [Thread-324:39016] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:29:05,246 [Thread-326:44876] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:29:16,451 [Thread-329:43368] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:29:18,812 [Thread-331:41664] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:31:21,095 [Thread-344:38932] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:41:08,308 [Thread-3:7328] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:42:16,132 [Thread-3:34064] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:42:43,138 [Thread-3:37588] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:42:57,503 [Thread-5:6536] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:45:30,038 [Thread-3:40924] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:53:48,461 [Thread-9:41468] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:56:55,825 [Thread-15:44116] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:57:05,536 [Thread-20:44568] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:57:12,010 [Thread-22:42080] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 15:58:06,447 [Thread-27:29952] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 31, in index
+    return render(request,'Home.html',locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'article' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2017-05-12 15:59:30,180 [Thread-33:44608] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:01:48,903 [Thread-3:44084] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:01:56,032 [Thread-5:39316] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:02:17,721 [Thread-3:38936] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:02:19,382 [Thread-3:43324] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:02:33,813 [Thread-9:8888] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:02:36,301 [Thread-3:42380] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:02:37,084 [Thread-5:44036] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:03:10,625 [Thread-11:43320] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:03:26,401 [Thread-3:37884] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:03:34,674 [Thread-5:43324] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:04:24,329 [Thread-3:38592] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:04:39,210 [Thread-3:15356] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:05,319 [Thread-3:45012] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:16,726 [Thread-9:34064] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:18,769 [Thread-11:40988] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:19,559 [Thread-13:40872] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:20,871 [Thread-15:13808] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:21,424 [Thread-17:39608] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:22,023 [Thread-19:6536] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:22,595 [Thread-21:40252] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:23,151 [Thread-23:23616] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:23,703 [Thread-25:43156] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:33,081 [Thread-27:36408] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:05:57,930 [Thread-32:40872] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:06:47,194 [Thread-39:36408] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:08:07,819 [Thread-41:42852] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:08:07,823 [Thread-42:44796] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 16:08:07,845 [Thread-43:43644] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 16:08:07,857 [Thread-44:35976] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 16:08:07,868 [Thread-45:39908] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 16:08:07,871 [Thread-46:38764] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 16:11:21,209 [Thread-48:39608] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:11:40,341 [Thread-51:7764] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:11:41,516 [Thread-53:3868] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:12:09,114 [Thread-55:8336] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:12:09,778 [Thread-57:43104] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:12:10,884 [Thread-59:38424] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:12:11,542 [Thread-61:44168] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:14:00,114 [Thread-66:23064] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:14:03,930 [Thread-68:43540] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:14:38,706 [Thread-70:40388] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:14:38,710 [Thread-71:39908] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 16:14:38,730 [Thread-72:42852] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 16:14:38,742 [Thread-73:43996] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 16:14:38,746 [Thread-74:33112] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 16:15:41,608 [Thread-76:1616] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:15:56,947 [Thread-81:22332] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:15:56,951 [Thread-82:44520] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-12 16:15:56,971 [Thread-83:34372] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-12 16:15:56,989 [Thread-84:27840] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-12 16:15:56,994 [Thread-85:32784] [django.request:182] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-12 16:16:42,414 [Thread-87:44476] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:18:52,556 [Thread-90:10932] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:18:54,206 [Thread-92:44732] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:18:54,819 [Thread-94:43952] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:18:55,309 [Thread-96:34776] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:19:54,921 [Thread-98:44292] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:20:00,608 [Thread-100:36692] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:20:08,473 [Thread-102:39180] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:20:18,790 [Thread-104:24040] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:20:46,828 [Thread-106:44400] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:42:29,141 [Thread-7:11544] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:42:30,046 [Thread-9:11168] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:42:30,556 [Thread-25:10372] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-12 16:42:59,325 [Thread-3:11012] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:45:04,058 [Thread-9:11092] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:45:05,533 [Thread-11:3088] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:45:06,407 [Thread-13:520] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:45:16,509 [Thread-19:12072] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:45:17,335 [Thread-21:9600] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:45:23,180 [Thread-25:9760] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:45:24,861 [Thread-27:11396] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:45:51,825 [Thread-29:10668] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:45:54,878 [Thread-31:11176] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:46:23,035 [Thread-35:11492] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:46:24,296 [Thread-33:2660] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:46:26,365 [Thread-38:10860] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:51:40,236 [Thread-3:12220] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:52:08,809 [Thread-5:12408] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:55:11,832 [Thread-3:3424] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:55:45,135 [Thread-3:12596] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:55:55,653 [Thread-6:6028] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:56:01,325 [Thread-3:8460] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:56:09,733 [Thread-5:12924] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 16:56:16,354 [Thread-3:1584] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:00:32,755 [Thread-3:8460] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:00:40,433 [Thread-5:4548] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:00:42,155 [Thread-7:6960] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:00:54,920 [Thread-9:11868] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:01:17,673 [Thread-3:12868] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:01:32,338 [Thread-5:4004] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:01:46,647 [Thread-3:12984] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:01:56,423 [Thread-5:6540] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:02:52,167 [Thread-3:12752] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:03:25,842 [Thread-12:2432] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:03:37,769 [Thread-15:9652] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:04:15,138 [Thread-3:7936] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:05:47,433 [Thread-3:12824] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:06:51,098 [Thread-9:12412] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:08:20,430 [Thread-3:13008] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:08:21,150 [Thread-5:12544] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:08:21,742 [Thread-7:944] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:08:22,234 [Thread-9:9300] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:10:43,118 [Thread-3:1740] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:11:27,384 [Thread-2:11520] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:11:48,190 [Thread-3:10780] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:14:01,696 [Thread-9:1516] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:15:03,286 [Thread-3:9856] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:15:16,779 [Thread-10:10040] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:16:52,594 [Thread-6:4808] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:19:30,607 [Thread-3:15872] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:19:45,638 [Thread-9:15840] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:19:47,532 [Thread-11:13424] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:19:49,196 [Thread-13:13428] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:20:47,971 [Thread-3:14340] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:20:52,473 [Thread-5:14380] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:21:03,069 [Thread-9:15088] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:21:22,569 [Thread-3:13716] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:21:45,783 [Thread-3:13976] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:21:46,720 [Thread-5:15956] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:22:19,006 [Thread-3:4880] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:22:21,811 [Thread-5:13432] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:22:58,171 [Thread-3:16136] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:23:08,765 [Thread-8:13648] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:23:28,029 [Thread-3:12908] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:23:39,720 [Thread-6:5172] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:23:44,213 [Thread-8:15628] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:23:56,775 [Thread-17:14568] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:24:05,973 [Thread-15:14592] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:24:38,124 [Thread-3:15776] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:25:07,243 [Thread-9:14828] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:25:55,374 [Thread-8:1096] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:27:13,490 [Thread-14:15312] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:27:17,242 [Thread-16:10992] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:27:17,969 [Thread-18:4240] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:27:22,483 [Thread-20:2740] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:27:38,559 [Thread-25:272] [django.request:182] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-12 17:32:02,206 [Thread-6:7292] [django.request:182] [base:get_response] [WARNING]- Not Found: /news.html
+2017-05-12 17:36:23,940 [Thread-4:1320] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2017-05-12 19:00:52,009 [Thread-2:14608] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2017-05-12 19:03:49,654 [Thread-3:13716] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2017-05-12 19:40:29,473 [Thread-10:17232] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 49, in tag
+    return render(request,'tag.html',locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+2017-05-12 19:40:51,000 [Thread-11:7896] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 49, in tag
+    return render(request,'tag.html',locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 517, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 535, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+2017-05-12 19:41:03,578 [Thread-13:17232] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 49, in tag
+    return render(request,'tag.html',locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 517, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 535, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+2017-05-12 20:24:56,266 [Thread-3:18276] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/base.html
+2017-05-12 20:24:58,872 [Thread-4:12084] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/base.html
+2017-05-12 20:25:21,160 [Thread-5:16824] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/base.html
+2017-05-13 13:09:00,266 [Thread-17:20820] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/base.html
+2017-05-13 13:09:22,161 [Thread-20:22352] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2017-05-13 13:51:39,177 [Thread-4:14420] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 60, in article
+    return render(request,'article.html',locals())
+NameError: global name 'request' is not defined
+2017-05-13 13:51:49,322 [Thread-7:22740] [django.request:182] [base:get_response] [WARNING]- Not Found: /articel/
+2017-05-13 13:52:01,176 [Thread-10:22520] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 60, in article
+    return render(request,'article.html',locals())
+NameError: global name 'request' is not defined
+2017-05-13 13:52:42,687 [Thread-13:18816] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 60, in article
+    return render(request,'article.html',locals())
+NameError: global name 'request' is not defined
+2017-05-13 13:52:44,815 [Thread-3:19244] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/base.css
+2017-05-13 13:52:44,865 [Thread-4:24088] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/index.css
+2017-05-13 13:52:44,951 [Thread-5:20656] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/jquery.min.js
+2017-05-13 13:52:45,020 [Thread-6:21600] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 13:52:45,102 [Thread-7:15596] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 13:52:45,168 [Thread-8:2368] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 13:53:18,627 [Thread-10:160] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 13:53:18,631 [Thread-11:4012] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 13:53:28,802 [Thread-18:20024] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 13:53:28,848 [Thread-19:17264] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 13:56:01,280 [Thread-27:19560] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 13:56:55,921 [Thread-32:20736] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 13:58:00,348 [Thread-40:22740] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 13:58:37,122 [Thread-43:16160] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 13:59:38,013 [Thread-46:22984] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:02:59,796 [Thread-3:1256] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/base.css
+2017-05-13 14:02:59,809 [Thread-4:19432] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/index.css
+2017-05-13 14:02:59,812 [Thread-5:19032] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/jquery.min.js
+2017-05-13 14:02:59,813 [Thread-6:19516] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 14:02:59,816 [Thread-7:18884] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:02:59,858 [Thread-8:18592] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 14:02:59,864 [Thread-9:23360] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:02:59,888 [Thread-10:16628] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:02:59,907 [Thread-11:14616] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:03:05,892 [Thread-14:24328] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/base.css
+2017-05-13 14:03:05,904 [Thread-15:22936] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/index.css
+2017-05-13 14:03:05,907 [Thread-16:18820] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/jquery.min.js
+2017-05-13 14:03:05,908 [Thread-17:3836] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 14:03:05,910 [Thread-18:18616] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:03:05,966 [Thread-19:5572] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:03:19,555 [Thread-24:21936] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/base.css
+2017-05-13 14:03:19,575 [Thread-25:18040] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/jquery.min.js
+2017-05-13 14:03:26,460 [Thread-28:18188] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/base.css
+2017-05-13 14:03:26,476 [Thread-29:6932] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/index.css
+2017-05-13 14:03:26,477 [Thread-30:15168] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/jquery.min.js
+2017-05-13 14:03:26,479 [Thread-31:9488] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 14:03:26,480 [Thread-32:18816] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:03:26,536 [Thread-33:20004] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:03:50,380 [Thread-36:20896] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/base.css
+2017-05-13 14:03:50,385 [Thread-37:22248] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/index.css
+2017-05-13 14:03:50,388 [Thread-38:14852] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/jquery.min.js
+2017-05-13 14:03:50,411 [Thread-39:21960] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 14:03:50,417 [Thread-40:22512] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:03:50,470 [Thread-41:3776] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:03:50,477 [Thread-42:21448] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:03:50,507 [Thread-43:19804] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:04:04,128 [Thread-3:22268] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/base.css
+2017-05-13 14:04:04,158 [Thread-4:19240] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/index.css
+2017-05-13 14:04:04,171 [Thread-5:24524] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/jquery.min.js
+2017-05-13 14:04:04,187 [Thread-6:21696] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 14:04:04,213 [Thread-7:22128] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:04:04,259 [Thread-8:20824] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:04:33,776 [Thread-5:22156] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/base.css
+2017-05-13 14:04:33,786 [Thread-6:19552] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/index.css
+2017-05-13 14:04:33,793 [Thread-7:20788] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/jquery.min.js
+2017-05-13 14:04:33,796 [Thread-8:18176] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 14:04:33,798 [Thread-9:22800] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:04:33,836 [Thread-10:22180] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 14:04:33,838 [Thread-11:24172] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:04:33,884 [Thread-12:18304] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:04:33,926 [Thread-13:19264] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:05:00,401 [Thread-20:20348] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/base.css
+2017-05-13 14:05:00,403 [Thread-21:22524] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/index.css
+2017-05-13 14:05:00,405 [Thread-22:10776] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/jquery.min.js
+2017-05-13 14:05:00,408 [Thread-23:22240] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 14:05:00,411 [Thread-24:3052] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:05:00,484 [Thread-25:916] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 14:05:00,490 [Thread-26:20452] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:05:00,532 [Thread-27:23968] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:05:00,598 [Thread-28:18636] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:08:08,940 [Thread-47:19372] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/base.css
+2017-05-13 14:08:08,944 [Thread-48:19164] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/index.css
+2017-05-13 14:08:08,947 [Thread-49:18236] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/jquery.min.js
+2017-05-13 14:08:08,950 [Thread-50:19996] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/sliders.js
+2017-05-13 14:08:08,953 [Thread-51:19720] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-05-13 14:08:09,002 [Thread-52:19744] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:08:16,055 [Thread-53:24192] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/base.css
+2017-05-13 14:08:16,061 [Thread-54:24556] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/css/index.css
+2017-05-13 14:08:16,062 [Thread-55:9464] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/js/jquery.min.js
+2017-05-13 14:08:18,173 [Thread-56:24292] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/c.html
+2017-05-13 14:12:28,085 [Thread-6:19288] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/portal.php
+2017-05-13 14:20:53,552 [Thread-14:21120] [django.request:182] [base:get_response] [WARNING]- Not Found: /articl
+2017-05-13 14:20:57,388 [Thread-16:21168] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:22:16,936 [Thread-26:21172] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:25:57,065 [Thread-36:17692] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:25:57,927 [Thread-38:3776] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:25:58,539 [Thread-40:21620] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:25:59,219 [Thread-42:13308] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:28:13,515 [Thread-45:18096] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:29:00,697 [Thread-48:19340] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:29:18,716 [Thread-53:21108] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 14:30:29,306 [Thread-69:19840] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:09:24,532 [Thread-6:21268] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:09:28,654 [Thread-9:24008] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:09:31,799 [Thread-11:21208] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:10:10,290 [Thread-17:12084] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:12:40,423 [Thread-19:19556] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:12:41,921 [Thread-21:23412] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:12:45,348 [Thread-23:23164] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:12:47,928 [Thread-25:14624] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:12:48,762 [Thread-27:19564] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:12:49,384 [Thread-29:22224] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:12:50,029 [Thread-31:23232] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:12:51,045 [Thread-33:24076] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:13:47,565 [Thread-35:12584] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:13:48,467 [Thread-37:7444] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:15:04,926 [Thread-39:21192] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:15:13,170 [Thread-42:5116] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:15:19,203 [Thread-45:22368] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:16:33,908 [Thread-74:13356] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:16:34,605 [Thread-76:21356] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:17:40,352 [Thread-78:8128] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:17:41,144 [Thread-80:23884] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:17:49,861 [Thread-82:15032] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:17:50,789 [Thread-84:8772] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:17:51,266 [Thread-86:21784] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:18:29,779 [Thread-88:10356] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:18:30,362 [Thread-90:23772] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:18:30,927 [Thread-92:23724] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:18:31,506 [Thread-94:11668] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:18:32,128 [Thread-96:11152] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:26,469 [Thread-98:22120] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:27,127 [Thread-100:22168] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:27,596 [Thread-102:24312] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:27,841 [Thread-104:21108] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:28,045 [Thread-106:13356] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:28,270 [Thread-108:21356] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:28,470 [Thread-110:23832] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:28,617 [Thread-112:23224] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:28,779 [Thread-114:22260] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:28,944 [Thread-116:22800] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:29,105 [Thread-118:15436] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:29,286 [Thread-120:18044] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:19:29,473 [Thread-122:22884] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:20:16,381 [Thread-124:14972] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:20:51,216 [Thread-125:14008] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:25:09,285 [Thread-128:17880] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:25:09,903 [Thread-130:10100] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:25:10,637 [Thread-132:18616] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:25:41,456 [Thread-134:23280] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:25:43,773 [Thread-136:23336] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:25:44,473 [Thread-138:160] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:25:45,142 [Thread-140:13280] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:26:18,665 [Thread-142:21232] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:28:43,621 [Thread-144:24000] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:30:00,187 [Thread-146:11152] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 15:35:40,779 [Thread-148:22168] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:35:53,638 [Thread-29:10804] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-13 16:35:55,908 [Thread-31:10972] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:36:11,989 [Thread-38:12820] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:36:41,322 [Thread-44:5836] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:37:15,911 [Thread-50:8452] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:37:59,703 [Thread-57:8628] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:38:27,750 [Thread-63:12808] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:38:47,523 [Thread-67:9668] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:39:36,730 [Thread-71:11676] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:39:44,974 [Thread-75:11948] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:39:54,752 [Thread-78:12144] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:40:15,043 [Thread-81:12424] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:40:20,147 [Thread-84:6340] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:40:27,355 [Thread-88:6952] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:40:30,789 [Thread-91:6392] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:40:32,801 [Thread-93:11104] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:44:19,819 [Thread-163:2492] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:46:02,438 [Thread-176:1060] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 16:55:44,369 [Thread-11:9848] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:01:39,325 [Thread-16:2488] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:01:40,543 [Thread-18:9080] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:01:41,158 [Thread-20:9996] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:01:41,716 [Thread-22:7124] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:01:42,285 [Thread-24:6032] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:01:44,918 [Thread-27:4732] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:03:06,977 [Thread-28:12172] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 67, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'my_month' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2017-05-13 17:04:33,845 [Thread-29:880] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 67, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'my_month' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2017-05-13 17:04:35,145 [Thread-30:6540] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 67, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'my_month' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2017-05-13 17:04:36,076 [Thread-31:6536] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 67, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'my_month' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2017-05-13 17:04:36,936 [Thread-32:11600] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 67, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'my_month' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2017-05-13 17:06:09,013 [Thread-33:10592] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 67, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'my_month' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2017-05-13 17:06:09,983 [Thread-34:7716] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 67, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'my_month' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2017-05-13 17:06:27,282 [Thread-36:6976] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 67, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'my_month' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2017-05-13 17:06:28,305 [Thread-35:8800] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 67, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'my_month' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2017-05-13 17:06:29,352 [Thread-37:6960] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 67, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'my_month' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2017-05-13 17:07:21,305 [Thread-40:9564] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:07:32,882 [Thread-43:11532] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:08:11,305 [Thread-49:12368] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:08:14,286 [Thread-51:11332] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/href=
+2017-05-13 17:08:40,099 [Thread-52:9296] [django.request:182] [base:get_response] [WARNING]- Not Found: /tag/href=
+2017-05-13 17:08:44,234 [Thread-55:8812] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:08:51,036 [Thread-58:5208] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:09:18,740 [Thread-62:972] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:18:01,332 [Thread-66:11796] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:18:38,519 [Thread-68:13300] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:19:15,565 [Thread-70:6884] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:19:16,430 [Thread-72:5804] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:19:34,250 [Thread-74:7196] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:19:35,071 [Thread-76:8812] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:19:47,125 [Thread-78:11984] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:19:52,676 [Thread-80:1028] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:20:02,992 [Thread-82:1880] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:20:03,707 [Thread-84:6896] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:20:40,374 [Thread-86:972] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:21:38,302 [Thread-88:10656] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:24:32,848 [Thread-93:9068] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:24:44,934 [Thread-95:11384] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 17:25:13,752 [Thread-97:13276] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 20:20:05,979 [Thread-5:13892] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:01:16,490 [Thread-46:19996] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 89, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2017-05-13 21:01:44,338 [Thread-50:19256] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 89, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'comment_post' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2017-05-13 21:05:30,917 [Thread-4:20040] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:05:32,594 [Thread-7:2976] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:05:35,115 [Thread-9:14220] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:05:35,894 [Thread-11:19152] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:06:09,776 [Thread-14:14028] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:08:23,967 [Thread-5:17100] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:08:43,003 [Thread-7:5368] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:08:44,216 [Thread-9:1868] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:08:44,851 [Thread-11:19332] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:09:11,815 [Thread-13:17724] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:09:38,746 [Thread-15:12264] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:10:06,622 [Thread-17:19708] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:11:35,045 [Thread-3:17900] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:12:41,571 [Thread-3:20044] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:12:50,099 [Thread-3:11404] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:14:01,404 [Thread-3:21364] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:14:28,085 [Thread-6:18916] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:14:40,756 [Thread-3:19028] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:14:45,713 [Thread-3:21264] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2017-05-13 21:20:08,466 [Thread-6:21188] [django.request:182] [base:get_response] [WARNING]- Not Found: /question/59614080/answer/167575229
+2017-05-14 10:57:33,309 [Thread-3:27488] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 97, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid block tag on line 82: 'endif', expected 'endblock'. Did you forget to register or load this tag?
+2017-05-14 10:57:58,414 [Thread-8:26884] [django.request:182] [base:get_response] [WARNING]- Not Found: /register/css/reglogin.css
+2017-05-14 11:07:11,272 [Thread-23:23072] [django.request:182] [base:get_response] [WARNING]- Not Found: /login/css/reglogin.css
+2017-05-14 11:07:19,822 [Thread-25:27396] [django.request:182] [base:get_response] [WARNING]- Not Found: /login/css/reglogin.css
+2017-05-14 11:07:21,071 [Thread-26:25856] [django.request:182] [base:get_response] [WARNING]- Not Found: /login/css/reglogin.css
+2017-05-14 14:46:05,618 [Thread-2:26076] [django.request:103] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /login/
+2017-05-14 14:57:04,135 [Thread-6:30200] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 143, in do_register
+    return render(request,'reg.html',locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'reg' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2017-05-14 14:57:09,767 [Thread-7:28612] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 143, in do_register
+    return render(request,'reg.html',locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'reg' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2017-05-14 15:20:33,176 [Thread-3:12396] [django.request:182] [base:get_response] [WARNING]- Not Found: /category/？cid=2
+2017-05-14 15:21:07,921 [Thread-5:12244] [django.request:182] [base:get_response] [WARNING]- Not Found: /category/？cid=3
+2017-05-14 15:21:21,795 [Thread-6:29012] [django.request:182] [base:get_response] [WARNING]- Not Found: /category/？cid=3
+2017-05-14 15:22:21,160 [Thread-11:29528] [django.request:182] [base:get_response] [WARNING]- Not Found: /category/？cid=2
+2017-05-14 15:23:47,167 [Thread-4:24924] [django.request:182] [base:get_response] [WARNING]- Not Found: /category/？cid=1
+2017-05-14 15:23:50,401 [Thread-5:21916] [django.request:182] [base:get_response] [WARNING]- Not Found: /category/？cid=1
+2017-05-14 15:25:26,855 [Thread-2:16644] [django.request:182] [base:get_response] [WARNING]- Not Found: /category/？cid=1
+2017-05-14 15:25:27,575 [Thread-3:19152] [django.request:182] [base:get_response] [WARNING]- Not Found: /category/？cid=1
+2017-05-14 15:27:05,436 [Thread-39:24284] [django.request:182] [base:get_response] [WARNING]- Not Found: /category/？cid=1
+2017-05-14 15:29:35,619 [Thread-63:29820] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /category/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\workplace\blog\blog\myblog\views.py", line 182, in category
+    return render(request,'category.html',locals())
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 97, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 118, in reraise
+    six.reraise(exc.__class__, new, sys.exc_info()[2])
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\loader_tags.py", line 200, in render
+    template = context.template.engine.get_template(template_name)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Users\Administrator\Virtualenv\_Ajax-python27\lib\site-packages\django\template\engine.py", line 169, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+TemplateDoesNotExist: pagination.html
